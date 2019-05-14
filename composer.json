@@ -1,0 +1,19 @@
+{
+    "name": "phpdots/elasticsearchtailor",
+    "description": "To search fast with elasticsearch",
+    "require": {
+        "elasticsearch/elasticsearch": "^6.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vishwasjadav1210",
+            "email": "vishwas@seekmi.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+           "PHPDots\\ElasticSearchTailor\\": "src/"
+        }
+    }
+}
