@@ -25,7 +25,7 @@ class ElasticSearchTailoredServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/elasticConfig' => config_path('elasticConfig.php'),
+            __DIR__.'\config\elasticConfig' => config_path('elasticConfig.php'),
         ]);
 
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');

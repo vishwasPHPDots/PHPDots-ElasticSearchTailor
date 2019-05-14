@@ -16,5 +16,5 @@
            "PHPDots\\ElasticSearchTailor\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
